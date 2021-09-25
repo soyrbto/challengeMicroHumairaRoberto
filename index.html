@@ -13,26 +13,73 @@
   </head>
   <body>
     <div class="header" , id="header">
-      <img src="./img/product-landing-page-logo.png" width="300" height="34" />
+      <img id="header-img" src="./img/product-landing-page-logo.png" width="300" height="34" />
 
       <nav id="nav-bar">
         <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#"> How it works</a>
-        <a class="nav-link" href="#">pricing</a>
+        <a class="nav-link" href="#">How it works</a>
+        <a class="nav-link" href="#">Pricing</a>
       </nav>
     </div>
     <h1>Handcrafted, home-made masterpieces</h1>
 
-    <form id="form">
-      <input id="email" placeholder="Email" />
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" placeholder="Email" type="email" />
+      <input id="submit" type="submit" value="Submit">
     </form>
 
-    <video id="video" controls width="250">
+    <div class="feature">
+      <h2>Premium Materials</h2>
+      <p> Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p>
+    </div>
+
+    <div class="feature">
+      <h2>Fast Shipping</h2>
+      <p> We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied. </p>
+    </div>
+
+    <div class="feature">
+      <h2>Quality Assurance</h2>
+      <p>  For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument. </p>
+    </div>
+
+    <video id="video" controls>
       <source src="https://youtu.be/y8Yv4pnO7qc" type="video" />
     </video>
+
+    <div class=pricing>
+      <h2>Tenor Trombone</h2>
+      <h3>$600</h3>
+      <p>Lorem ipsum.</p>
+      <p>Lorem ipsum.</p>
+      <p>Lorem ipsum dolor.</p>
+      <p>Lorem ipsum.</p>
+      <button>Select</button>
+    </div>
+
+    <div class=pricing>
+      <h2>Bass  Trombone</h2>
+      <h3>$900</h3>
+      <p>Lorem ipsum.</p>
+      <p>Lorem ipsum.</p>
+      <p>Lorem ipsum dolor.</p>
+      <p>Lorem ipsum.</p>
+      <button>Select</button>
+    </div>
+
+    <div class=pricing>
+      <h2>Valve  Trombone</h2>
+      <h3>$1200</h3>
+      <p>Plays similar to a Trumpet</p>
+      <p>Great for Jazz Bands</p>
+      <p>Lorem ipsum dolor.</p>
+      <p>Lorem ipsum.</p>
+      <button>Select</button>
+    </div>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <script src="js/index.js"></script>
+
   </body>
 </html>
