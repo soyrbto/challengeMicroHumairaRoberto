@@ -45,6 +45,7 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 
@@ -55,28 +56,6 @@ form input{
 form *:not(:last-child){
     margin-bottom: 10px;}
 
-
-/* .features{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.feature{
-    width: 40%;
-} */
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-    video{
-        height: 200;
-}
-
-}
 
 
 #pricing{
@@ -146,6 +125,56 @@ form *:not(:last-child){
     color: white;
     border-radius: 4px;
 }
+
+
+#features{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.hbox{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.feature{
+    display: flex;
+    max-width: 40%;
+} 
+
+.feature p{
+    width: 700px;
+}
+
+.feature h2{
+    width: 400px;
+}
+
+.hbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+    
+}
+
+
+.video{
+    display: flex;
+    justify-content: center;
+
+}
+
+
 
 
 
