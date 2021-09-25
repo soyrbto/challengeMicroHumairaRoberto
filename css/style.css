@@ -56,7 +56,7 @@ form *:not(:last-child){
 }
 
 
-.features{
+/* .features{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@ form *:not(:last-child){
 
 .feature{
     width: 40%;
-}
+} */
 
 
 
